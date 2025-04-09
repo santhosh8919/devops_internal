@@ -1,0 +1,223 @@
+Sure Santhosh! Here's a complete list of **Git + GitHub commands** you can use for your repo:  
+👉 [`https://github.com/santhosh8919/devops_internal`](https://github.com/santhosh8919/devops_internal)
+
+---
+
+## ✅ All-in-One Git & GitHub Commands
+
+### 📁 Step 1: Clone Your Repo (first time)
+
+```bash
+git clone https://github.com/santhosh8919/devops_internal.git
+cd devops_internal
+```
+
+---
+
+### 🛠️ Step 2: Setup & Check Status
+
+```bash
+git init                             # (if not already a git repo)
+git remote add origin https://github.com/santhosh8919/devops_internal.git
+git status                           # check file status
+```
+
+---
+
+### ✍️ Step 3: Stage & Commit Changes
+
+```bash
+git add .                            # stage all changes
+git commit -m "Your commit message" # commit changes
+```
+
+---
+
+### 🚀 Step 4: Push Changes to GitHub
+
+```bash
+git push origin main                 # push to main branch
+```
+
+> For first push from a new branch:
+```bash
+git push -u origin <branch-name>
+```
+
+---
+
+### 🔁 Step 5: Pull Latest Changes from GitHub
+
+```bash
+git pull origin main                 # get latest code from GitHub
+```
+
+---
+
+### 🌿 Branching
+
+```bash
+git branch                           # list branches
+git branch new-feature               # create new branch
+git checkout new-feature             # switch to that branch
+```
+
+> Or using newer syntax:
+```bash
+git switch -c new-feature            # create + switch
+```
+
+---
+
+### 🔀 Merge a Branch
+
+```bash
+git checkout main                    # go to main
+git merge new-feature                # merge that branch into main
+```
+
+---
+
+### 🧽 Undoing / Resetting
+
+```bash
+git checkout <file>                 # undo changes to a file
+git reset HEAD~1                    # undo last commit (keep changes)
+```
+
+---
+
+### 📜 View History
+
+```bash
+git log                             # view commit history
+```
+
+---
+
+### 📦 Clone (again, if needed)
+
+```bash
+git clone https://github.com/santhosh8919/devops_internal.git
+```
+
+---
+
+### 🔁 Pull Request (GitHub UI)
+
+1. Push a new branch to GitHub.
+2. Go to: [https://github.com/santhosh8919/devops_internal](https://github.com/santhosh8919/devops_internal)
+3. Click **"Compare & pull request"**.
+4. Add title & description.
+5. Click **"Create pull request"**.
+
+---
+
+Let me know if you want a **PDF cheat sheet** or want to automate all this in a `.sh` or `.bat` file!
+
+
+
+week.....3
+
+Perfect, Santhosh! Here's a clean, step-by-step guide to **practice source code management** on GitHub using your **Exercise 1 (user registration form)** project:
+
+---
+
+## ✅ Source Code Management on GitHub – Step by Step
+
+### 🔹 Step 1: Create a GitHub Account (if you don’t have one)
+Go to [https://github.com](https://github.com) and sign up.
+
+---
+
+### 🔹 Step 2: Create a New Repository
+
+1. Go to your profile → **Repositories**.
+2. Click **"New"**.
+3. Name it (e.g., `devops_internal`).
+4. Make it public or private.
+5. Click **"Create repository"**.
+
+---
+
+### 🔹 Step 3: Clone the Repository to Your Local System
+
+```bash
+git clone https://github.com/santhosh8919/devops_internal.git
+```
+
+---
+
+### 🔹 Step 4: Move to the Repo Directory
+
+```bash
+cd devops_internal
+```
+
+---
+
+### 🔹 Step 5: Add Source Code (Your Exercise 1 Files)
+
+Paste your files:
+- `app.py`
+- `Dockerfile`
+- `requirements.txt`
+- `/templates/register.html`
+- `/templates/success.html`
+
+Or create them using terminal or VS Code.
+
+---
+
+### 🔹 Step 6: Stage the Changes
+
+```bash
+git add .
+```
+
+> Or specify file:
+```bash
+git add app.py
+```
+
+---
+
+### 🔹 Step 7: Commit the Changes
+
+```bash
+git commit -m "Added source code for a simple user registration form"
+```
+
+---
+
+### 🔹 Step 8: Push to GitHub
+
+If your repo is set up for `main`:
+```bash
+git push origin main
+```
+
+If it uses `master`:
+```bash
+git push origin master
+```
+
+---
+
+### 🔹 Step 9: Verify on GitHub
+
+Visit:  
+👉 `https://github.com/santhosh8919/devops_internal`  
+You’ll see your uploaded source code.
+
+---
+
+### 💡 Bonus – Explore More GitHub Features:
+- ✅ Create **branches** for new features.
+- ✅ Open **pull requests** to propose changes.
+- ✅ Use **issues** for bug tracking.
+- ✅ Add **collaborators** to work as a team.
+
+---
+
+Let me know if you'd like help pushing your Exercise 1 code right now or want to create a `.sh` or `.bat` file to automate it!
